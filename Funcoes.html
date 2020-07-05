@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	var bola = 'Amarela';
+	
+	function somaNumeros(num1, num2){
+		return num1 + num2;
+	}
+	var total = somaNumeros (2,5);
+	document.write(total);
+
+
+	var a = function(num){
+		return num /2;
+	}
+	document.write('<br>' + a(20));
+
+
+	var b = (num) =>{ // '=>' subtutui a palabra 'function'
+		return num *3;
+	}
+	document.write('<br>' + b(3));
+
+	function imprimeBola(){
+		var carrinho = 'Verde';
+		document.write('<br>' + bola);
+
+		function imprimePipa(){
+			document.write('<br>' + carrinho);
+		}
+	imprimePipa();
+		
+	}
+	imprimeBola();
+
+</script>
+<body>
+
+</body>
+</html>
